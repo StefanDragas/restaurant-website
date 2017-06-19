@@ -1,0 +1,32 @@
+section.form
+  .container
+    h2.form__title We're happy to hear from you
+    hr.form__line
+  .container
+    form(action="#" method="POST").contact-form
+      .col.form__container
+        label(for="name").form__label Name
+        input(type="text" name="name" placeholder="Your name" required)#name.form__input.form__input--text
+      .col.form__container
+        label(for="email").form__label Email
+        input(type="email" name="email" placeholder="Your email" required)#email.form__input
+      .col.form__container
+        label(for="find-us").form__label How did you find us?
+        select(name="find-us")#find-us.form__select
+          option(value="Socia Media" selected).form__option Social Media
+          option(value="Friends").form__option Friends
+          option(value="Search Engine").form__option Search Engine
+          option(value="TV").form__option TV
+          option(value="Radio").form__option Radio
+          option(value="Other").form__option Other
+      .col.form__container
+        label(for="news").form__label Newsletter?
+        .form__checkbox-container
+          span.form__checkbox-text Yes, please.
+          input(type="checkbox" name="news" checked)#news.form__checkbox
+      .col.form__container
+        label(for="message").form__label.form__label--message Send us a message
+        textarea(name="message" placeholder="Your message").form__textarea
+      .col.form__container.form__button-container
+        //- label.form__label &nbsp;
+        input(type="submit", value="Send").btn.btn-full.form__button.form__button--full

@@ -1,0 +1,148 @@
+.form {
+  padding: 5rem 0;
+  background-color: $white;
+
+  @media #{$media-querie--large} {
+    padding: 4rem 1rem;
+  }
+}
+
+.form__title {
+  color: $black;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.form__line {
+  background-color: $color-primary;
+  height: 2px;
+  border: 0;
+  width: 100px;
+  margin: 2rem auto 3rem;
+
+  @media #{$media-querie--small} {
+    margin: 2rem auto;
+  }
+}
+
+form {
+  width: 65%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  // justify-content: center;
+
+  @media #{$media-querie--medium} {
+    width: 90%;
+  }
+
+  @media #{$media-querie--small} {
+    width: 100%;
+  }
+}
+
+.form__container {
+  // background-color:pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.75rem 0;
+  
+  @media #{$media-querie--small} {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.form__label {
+  font-size: 1.25rem;
+  font-weight: 300;
+
+  @media #{$media-querie--small} {
+    margin-bottom: 1rem; 
+  }
+}
+
+.form__label[for="message"] {
+  align-self: flex-start;
+}
+
+.form__input,
+.form__select,
+.form__textarea {
+  width: 57.5%;
+
+  // padding: 0.25rem 0.5rem;
+  padding: 0.475rem;
+  border-radius: 3px;
+  border: 1px solid silver;
+  font-weight: 300;
+  font-size: 1.25rem;
+  outline: none;
+
+  @media #{$media-querie--small} {
+    width: 100%;
+  }
+}
+
+.form__option {
+  font-weight: 300;
+}
+
+.form__checkbox-container {
+  display: flex;
+  flex-basis: 57.5%;
+  align-items: center;
+}
+
+.form__checkbox-text {
+  order: 1;
+  font-size: 1.25rem;
+  font-weight: 300;
+  padding-left: 0.5rem;
+}
+
+.form__checkbox {
+  margin-top: 0.2rem;
+}
+
+.form__textarea {
+  // width: 57.5%;
+  height: 6.25rem;
+
+  // padding: 0.25rem 0.5rem;
+}
+
+.form__button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form__button,
+.form__button {
+  padding: 10px 25px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  font-size: 1.25rem;
+
+  @media #{$media-querie--small} {
+    padding: 5px 20px;
+  }
+}
+
+.form__button--full,
+.form__button--full {
+  background-color: $color-primary;
+  border: 1px solid $color-primary;
+  color: $white;
+  margin-right: 0.95rem;
+}
+
+.plans__button--full,
+.plans__button--full {
+  background-color: darken($color-primary, 10%);
+}

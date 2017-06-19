@@ -1,0 +1,62 @@
+.meals {
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  &__image::before {
+    content: "";
+
+    // display: block;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+  }
+
+  &__image:hover::before {
+    opacity: 0.25;
+  }
+
+  &__image {
+    width: 25%;
+    height: 10%;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.03);
+    overflow: hidden;
+
+    @media #{$media-querie--medium} {
+      width: 50%;
+      height: auto;
+    }
+
+    @media #{$media-querie--extra-small} {
+      width: 100%;
+    }
+  }
+
+  &__image:hover img {
+    transform: scale(1.15);
+  }
+
+  &__image img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.03);
+  }
+}
+
