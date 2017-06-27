@@ -774,6 +774,7 @@ a:active {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  height: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -800,6 +801,7 @@ a:active {
   -webkit-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
+  height: auto;
 }
 
 .main-nav__link:link, .main-nav__link:visited {
