@@ -8,14 +8,14 @@ $(document).ready(function() {
       $(".main-nav .main-nav__logo").addClass("main-nav__logo--fixed");
       $(".main-nav .main-nav__logo--transparent").addClass('main-nav__logo--hidden');
       $(".main-nav .main-nav__logo--full").addClass('main-nav__logo--visible');
-      $(".main-nav__link").addClass('main-nav__link--black');
+      $(".main-nav__link").addClass('main-nav__link--fixed');
       $(".main-nav__icon").addClass('main-nav__icon--black');
     } else {
       $(".main-nav").children().removeClass("main-nav__container--fixed");
       $(".main-nav .main-nav__logo").removeClass("main-nav__logo--fixed");
       $(".main-nav .main-nav__logo--transparent").removeClass('main-nav__logo--hidden');
       $(".main-nav .main-nav__logo--full").removeClass('main-nav__logo--visible');
-      $(".main-nav__link").removeClass('main-nav__link--black');
+      $(".main-nav__link").removeClass('main-nav__link--fixed');
       $(".main-nav__icon").removeClass('main-nav__icon--black');
     }
   });
