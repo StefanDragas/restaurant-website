@@ -29,7 +29,7 @@
     "gulp-postcss": "^7.0.1",
     "gulp-print": "^5.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^4.0.2",
     "gulp-size": "^3.0.0",
     "gulp-sourcemaps": "^2.0.0-alpha",
     "gulp-uglify": "^3.0.0",
