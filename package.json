@@ -21,7 +21,7 @@
     "gulp-filter": "^5.1.0",
     "gulp-if": "^2.0.0",
     "gulp-imagemin": "^4.1.0",
-    "gulp-inject": "^4.0.0",
+    "gulp-inject": "^5.0.4",
     "gulp-jade": "^1.1.0",
     "gulp-load-plugins": "^1.2.2",
     "gulp-notify": "^3.2.0",
