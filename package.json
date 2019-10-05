@@ -9,7 +9,7 @@
   "author": "Stefan Dragas",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^8.0.0",
+    "autoprefixer": "^9.6.4",
     "browser-sync": "^2.12.3",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
