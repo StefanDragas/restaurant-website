@@ -40,6 +40,6 @@
     "run-sequence": "^2.2.1",
     "stylelint": "^9.0.0",
     "wiredep": "^4.0.0",
-    "yargs": "^11.0.0"
+    "yargs": "^15.0.2"
   }
 }
